@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+    <title>           أبو إدريس الخولاني 
+    </title>
+    <style>
+ .tv{
+min-height: 100vh;
+background-image: url('im.png');
+background-size: cover;
+position: relative;
+margin: auto 
+;
+ }
+
+        .container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+/* Small */
+@media (min-width: 768px) {
+.container {
+width: 750px;
+}
+}
+/* Medium */
+@media (min-width: 992px) {
+.container {
+width: 970px;
+}
+}
+/* Large */
+@media (min-width: 1200px) {
+.container {
+width: 1170px;
+}}
+
+.vid{
+display: block;
+object-position: center;
+max-width: 100%;
+max-height: 100%;
+
+}
+
+@media (min-width: 1200px) {
+.vid {
+width: 100%;
+}}
+
+.text {
+flex: 1;
+direction: rtl;
+font-size: 40px;
+line-height: 1.7;
+margin: 5px 0 0;
+color: #19710c;
+text-align: center;
+padding-right:20%;
+max-width: 900px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left:20%;
+border-bottom:2px solid green;
+
+
+}
+                </style>
+
+</head>
+
+
+
+<body>
+
+    <div class="tv">
+
+        <div class="container">
+            
+
+                <h1 class="text ">                قصة أبو إدريس الخولاني
+                </h1>
+           
+
+            <video class="vid" src="video/AbuIdris.mp4" width="1000" height="580" controls autoplay loop muted  >
+                <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian">
+            </video>
+         </div>
+    </div>
+    
+</body>
+</html>
